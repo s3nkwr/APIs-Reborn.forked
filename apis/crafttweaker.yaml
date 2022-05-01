@@ -1,0 +1,15 @@
+---
+forge-1.16.5:
+  gradle: |
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        runtimeOnly fg.deobf("com.blamejared.crafttweaker:CraftTweaker-1.16.5:7.1.0.185")
+      }
+  update_files:
+    - ~
+name: "CraftTweaker"

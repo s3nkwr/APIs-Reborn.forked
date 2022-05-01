@@ -1,0 +1,10 @@
+{
+  "id": "apis_reborn",
+  "minversion": 20210112313,
+  "info": {
+    "name": "APIs Reborn",
+    "version": "1.1",
+    "description": "Adds APIs for MCreator 2021.1 and above.",
+    "author": "GamesofFreak"
+  }
+}

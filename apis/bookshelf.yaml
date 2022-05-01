@@ -1,0 +1,15 @@
+---
+forge-1.16.5:
+  gradle: |
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        compile "net.darkhax.bookshelf:Bookshelf-1.16.5:10.0.7"
+      }
+  update_files:
+    - ~
+name: "Bookshelf"
